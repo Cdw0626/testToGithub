@@ -15,6 +15,7 @@
 		3AE377BE1DAF83430010CA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE377BC1DAF83430010CA19 /* LaunchScreen.storyboard */; };
 		3AE377C91DAF83440010CA19 /* testToGithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE377C81DAF83440010CA19 /* testToGithubTests.m */; };
 		3AE377D41DAF83440010CA19 /* testToGithubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE377D31DAF83440010CA19 /* testToGithubUITests.m */; };
+		3AE378221DAF96CE0010CA19 /* addThenModify.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE378211DAF96CE0010CA19 /* addThenModify.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3AE377CF1DAF83440010CA19 /* testToGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testToGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE377D31DAF83440010CA19 /* testToGithubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testToGithubUITests.m; sourceTree = "<group>"; };
 		3AE377D51DAF83440010CA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE378201DAF96CD0010CA19 /* addThenModify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addThenModify.h; sourceTree = "<group>"; };
+		3AE378211DAF96CE0010CA19 /* addThenModify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addThenModify.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3AE377B21DAF83420010CA19 /* AppDelegate.m */,
 				3AE377B41DAF83420010CA19 /* ViewController.h */,
 				3AE377B51DAF83420010CA19 /* ViewController.m */,
+				3AE378201DAF96CD0010CA19 /* addThenModify.h */,
+				3AE378211DAF96CE0010CA19 /* addThenModify.m */,
 				3AE377B71DAF83420010CA19 /* Main.storyboard */,
 				3AE377BA1DAF83430010CA19 /* Assets.xcassets */,
 				3AE377BC1DAF83430010CA19 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				3AE377B61DAF83420010CA19 /* ViewController.m in Sources */,
 				3AE377B31DAF83420010CA19 /* AppDelegate.m in Sources */,
+				3AE378221DAF96CE0010CA19 /* addThenModify.m in Sources */,
 				3AE377B01DAF83420010CA19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +511,7 @@
 				3AE377DA1DAF83440010CA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE377DB1DAF83440010CA19 /* Build configuration list for PBXNativeTarget "testToGithubTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				3AE377DD1DAF83440010CA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE377DE1DAF83440010CA19 /* Build configuration list for PBXNativeTarget "testToGithubUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				3AE377E01DAF83440010CA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
