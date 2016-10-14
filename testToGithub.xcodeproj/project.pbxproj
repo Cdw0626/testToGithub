@@ -54,6 +54,7 @@
 		3AE377D51DAF83440010CA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE378201DAF96CD0010CA19 /* addThenModify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addThenModify.h; sourceTree = "<group>"; };
 		3AE378211DAF96CE0010CA19 /* addThenModify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addThenModify.m; sourceTree = "<group>"; };
+		3AE378231DAF9C080010CA19 /* Testdelete.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testdelete.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				3AE377B51DAF83420010CA19 /* ViewController.m */,
 				3AE378201DAF96CD0010CA19 /* addThenModify.h */,
 				3AE378211DAF96CE0010CA19 /* addThenModify.m */,
+				3AE378231DAF9C080010CA19 /* Testdelete.h */,
 				3AE377B71DAF83420010CA19 /* Main.storyboard */,
 				3AE377BA1DAF83430010CA19 /* Assets.xcassets */,
 				3AE377BC1DAF83430010CA19 /* LaunchScreen.storyboard */,
